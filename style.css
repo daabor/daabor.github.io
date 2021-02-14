@@ -55,24 +55,31 @@ hr {
     
         color: #4f5663;
         border-width: 2px;
-        width: 30%;
+        width: 50%;
         margin: auto;
 
     }
 
 header nav ul {
     
+    /*width: fit-content;
     display: block;
-    margin: 0px 0px 0px 0px;
-    text-align: center;
-
+    margin: 0 auto;
+    text-align: center;*/
+    list-style: none;
+    margin: 0 2px;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    
+    
     
 }
 
 header nav ul li {
     
     display: inline-block;
-    padding: 16px 20px;
+    padding: 16px 16px;
     
 }
 
@@ -80,7 +87,7 @@ nav ul li a {
     
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
     letter-spacing: 3px;
     color: #172029;
     text-transform: uppercase;
@@ -302,6 +309,14 @@ footer ul li p {
         
     }
 
+    header nav ul {
+        
+        width: fit-content;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        
+    }
     
     hr {
         
