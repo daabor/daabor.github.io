@@ -28,7 +28,6 @@ header h2 {
     font-weight: 300;
     font-style: italic;
     font-size: 15px;
-    letter-spacing: 5px;
     color: #000000;
     text-transform: uppercase;
     margin-top: 26px;
@@ -37,7 +36,7 @@ header h2 {
 
 header .logo {
     
-    display: block;
+    display: table-cell;
     vertical-align: top;
     text-align: center;
     padding: 10px 0 10px 0;
