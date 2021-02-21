@@ -37,7 +37,7 @@ header h2 {
 
 header .logo {
     
-    display: table-cell;
+    display: inline block;
     vertical-align: top;
     text-align: center;
     padding: 10px 0 10px 0;
