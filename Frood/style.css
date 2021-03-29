@@ -129,6 +129,7 @@ button{
   
   }
 
+<<<<<<< HEAD
 .container{
     position: fixed;
     bottom: 2em;
@@ -172,6 +173,22 @@ footer{
     .main, .container, .navbar, .frood-logo, button{
         
         display: none;
+=======
+        font-family: Seravek, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+        color: #fff;
+        border: 3px solid #fff;
+        padding: 5%;
+        width: 32vw;
+        text-align: center;
+        margin-top: 2em;
+        margin-left: auto;
+        margin-right: auto;
+        box-sizing: border-box;
+>>>>>>> 08f59f884123ed26f8ea6d05cf54edf74117cee4
         
         
         
